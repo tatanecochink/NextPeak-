@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>NextPeak Investments Inc.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #121418; color: #222; }
+        header { background: #0b234a; color: #fff; padding: 40px 0 30px 0; text-align: center; position: relative; }
+        .logo-img { width: 130px; height: auto; display: block; margin: 0 auto 20px auto; }
+        h1 { margin: 10px 0 6px 0; font-size: 2.5em; letter-spacing: 2px;}
+        .slogan { font-size: 1.1em; color: #8dd6ff; margin-bottom: 10px;}
+        nav { background: #133366; text-align: center; }
+        nav a { display: inline-block; color: #fff; text-decoration: none; padding: 16px 30px; font-weight: bold; transition: background .2s; }
+        nav a:hover { background: #0b234a; }
+        section { max-width: 900px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 14px #0001; padding: 36px; }
+        h2 { color: #1350a1; margin-top: 0;}
+        .services { display: flex; gap: 36px; flex-wrap: wrap; }
+        .service { flex: 1 1 240px; background: #f4f8fb; margin: 0; border-radius: 6px; padding: 18px; }
+        .contact { background: #e8f0ff; padding: 18px; border-radius: 6px; }
+        footer { background: #222b36; color: #fff; text-align: center; padding: 20px; font-size: 0.95em; }
+        .lang-switch { position: absolute; top: 28px; right: 32px; }
+        .lang-btn { background: #fff; color: #1350a1; border: none; border-radius: 6px; font-weight: bold; padding: 8px 20px; cursor: pointer; transition: background 0.2s; font-size: 1em;}
+        .lang-btn:hover { background: #8dd6ff; color: #0b234a;}
+        @media (max-width: 700px) {
+            .services { flex-direction: column; }
+            section { padding: 20px; }
+            .lang-switch { right: 10px; top: 18px;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-switch">
+            <button class="lang-btn" id="switch-lang">EN</button>
+        </div>
+        <img src="/mnt/data/E254A79D-EA26-4642-A80C-0E2EF6E33080.png" alt="Logo NextPeak" class="logo-img">
+        <h1 id="site-title">NextPeak Investments Inc.</h1>
+        <div class="slogan" id="slogan">Atteignez de nouveaux sommets financiers.</div>
+    </header>
+    <nav>
+        <a href="#accueil" id="nav-home">Accueil</a>
+        <a href="#apropos" id="nav-about">À propos</a>
+        <a href="#services" id="nav-services">Services</a>
+        <a href="#tech" id="nav-tech">Notre technologie</a>
+        <a href="#contact" id="nav-contact">Contact</a>
+    </nav>
+
+    <section id="accueil">
+        <h2 id="home-title">Bienvenue chez NextPeak Investments</h2>
+        <p id="home-text">
+            Prenez une longueur d’avance grâce à notre expertise en gestion de portefeuille et en analyse de marché alimentée par l’intelligence artificielle.<br>
+            Nous vous aidons à atteindre vos objectifs, que vous soyez investisseur débutant ou aguerri.
+        </p>
+    </section>
+
+    <section id="apropos">
+        <h2 id="about-title">À propos</h2>
+        <p id="about-text">
+            NextPeak Investments Inc. est une société spécialisée dans l’investissement boursier automatisé, combinant intelligence artificielle, technologie de pointe et stratégies avancées pour maximiser la croissance de votre portefeuille.<br>
+            Notre mission : rendre l’investissement accessible, efficace et innovant, tout en maintenant une approche humaine et personnalisée.
+        </p>
+        <p>
+            <b id="founder-label">Fondateur :</b> <span id="founder">Charles-Alexandre Deschênes</span><br>
+            <b id="city-label">Ville :</b> <span id="city">Québec, QC</span>
+        </p>
+    </section>
+
+    <section id="services">
+        <h2 id="services-title">Nos services</h2>
+        <div class="services">
+            <div class="service">
+                <strong id="service1-title">Gestion de portefeuille automatisée</strong>
+                <p id="service1-desc">Optimisez vos placements grâce à nos algorithmes propriétaires et à un suivi en temps réel.</p>
+            </div>
+            <div class="service">
+                <strong id="service2-title">Analyse et veille de marché par IA</strong>
+                <p id="service2-desc">Détection proactive des opportunités et des risques, 24/7.</p>
+            </div>
+            <div class="service">
+                <strong id="service3-title">Accompagnement pour investisseurs</strong>
+                <p id="service3-desc">Coaching et soutien personnalisés pour débutants et avancés.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <h2 id="tech-title">Notre technologie</h2>
+        <p id="tech-text">
+            Nos outils de pointe analysent les marchés mondiaux en temps réel pour repérer les catalyseurs majeurs.<br>
+            Nous utilisons Python, l’intelligence artificielle et des systèmes automatisés pour maximiser les rendements tout en réduisant les risques.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact">
+            <p><strong id="email-label">Courriel :</strong> <a href="mailto:nextpeak.investments@gmail.com" id="email-link">nextpeak.investments@gmail.com</a></p>
+            <p><strong id="phone-label">Téléphone :</strong> <span id="phone">(418) 956-3958</span></p>
+            <p><strong id="city-label2">Ville :</strong> <span id="city2">Québec, QC</span></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 NextPeak Investments Inc. | Site par Charles-Alexandre Deschênes
+    </footer>
+
+    <script>
+    // Traductions anglais/français (tu peux adapter les textes ici)
+    const FR = {
+        siteTitle: "NextPeak Investments Inc.",
+        slogan: "Atteignez de nouveaux sommets financiers.",
+        nav: ["Accueil", "À propos", "Services", "Notre technologie", "Contact"],
+        homeTitle: "Bienvenue chez NextPeak Investments",
+        homeText: `Prenez une longueur d’avance grâce à notre expertise en gestion de portefeuille et en analyse de marché alimentée par l’intelligence artificielle.<br>
+            Nous vous aidons à atteindre vos objectifs, que vous soyez investisseur débutant ou aguerri.`,
+        aboutTitle: "À propos",
+        aboutText: `NextPeak Investments Inc. est une société spécialisée dans l’investissement boursier automatisé, combinant intelligence artificielle, technologie de pointe et stratégies avancées pour maximiser la croissance de votre portefeuille.<br>
+            Notre mission : rendre l’investissement accessible, efficace et innovant, tout en maintenant une approche humaine et personnalisée.`,
+        founderLabel: "Fondateur :",
+        founder: "Charles-Alexandre Deschênes",
+        cityLabel: "Ville :",
+        city: "Québec, QC",
+        servicesTitle: "Nos services",
+        service1Title: "Gestion de portefeuille automatisée",
+        service1Desc: "Optimisez vos placements grâce à nos algorithmes propriétaires et à un suivi en temps réel.",
+        service2Title: "Analyse et veille de marché par IA",
+        service2Desc: "Détection proactive des opportunités et des risques, 24/7.",
+        service3Title: "Accompagnement pour investisseurs",
+        service3Desc: "Coaching et soutien personnalisés pour débutants et avancés.",
+        techTitle: "Notre technologie",
+        techText: `Nos outils de pointe analysent les marchés mondiaux en temps réel pour repérer les catalyseurs majeurs.<br>
+            Nous utilisons Python, l’intelligence artificielle et des systèmes automatisés pour maximiser les rendements tout en réduisant les risques.`,
+        contactTitle: "Contact",
+        emailLabel: "Courriel :",
+        phoneLabel: "Téléphone :",
+        cityLabel2: "Ville :",
+        email: "nextpeak.investments@gmail.com",
+        phone: "(418) 956-3958",
+        city2: "Québec, QC",
+        footer: "© 2025 NextPeak Investments Inc. | Site par Charles-Alexandre Deschênes"
+    };
+
+    const EN = {
+        siteTitle: "NextPeak Investments Inc.",
+        slogan: "Reach new financial heights.",
+        nav: ["Home", "About", "Services", "Our Technology", "Contact"],
+        homeTitle: "Welcome to NextPeak Investments",
+        homeText: `Get ahead of the curve with our expertise in portfolio management and AI-driven market analysis.<br>
+            We help you reach your goals, whether you are a beginner or an experienced investor.`,
+        aboutTitle: "About Us",
+        aboutText: `NextPeak Investments Inc. specializes in automated stock market investing, combining artificial intelligence, cutting-edge technology, and advanced strategies to maximize your portfolio growth.<br>
+            Our mission: to make investing accessible, efficient, and innovative, while maintaining a human and personalized approach.`,
+        founderLabel: "Founder:",
+        founder: "Charles-Alexandre Deschênes",
+        cityLabel: "City:",
+        city: "Québec, QC",
+        servicesTitle: "Our Services",
+        service1Title: "Automated Portfolio Management",
+        service1Desc: "Optimize your investments with our proprietary algorithms and real-time monitoring.",
+        service2Title: "AI-Powered Market Analysis",
+        service2Desc: "Proactive detection of opportunities and risks, 24/7.",
+        service3Title: "Investor Coaching",
+        service3Desc: "Personalized coaching and support for both beginners and advanced investors.",
+        techTitle: "Our Technology",
+        techText: `Our state-of-the-art tools analyze global markets in real time to identify key catalysts.<br>
+            We leverage Python, artificial intelligence, and automated systems to maximize returns while reducing risks.`,
+        contactTitle: "Contact",
+        emailLabel: "Email:",
+        phoneLabel: "Phone:",
+        cityLabel2: "City:",
+        email: "nextpeak.investments@gmail.com",
+        phone: "(418) 956-3958",
+        city2: "Québec, QC",
+        footer: "© 2025 NextPeak Investments Inc. | Site by Charles-Alexandre Deschênes"
+    };
+
+    let currentLang = "fr";
+    document.getElementById('switch-lang').onclick = function() {
+        if (currentLang === "fr") {
+            applyLang(EN);
+            this.textContent = "FR";
+            currentLang = "en";
+        } else {
+            applyLang(FR);
+            this.textContent = "EN";
+            currentLang = "fr";
+        }
+    };
+
+    function applyLang(L) {
+        document.getElementById('site-title').textContent = L.siteTitle;
+        document.getElementById('slogan').textContent = L.slogan;
+        // Nav
+        document.getElementById('nav-home').textContent = L.nav[0];
+        document.getElementById('nav-about').textContent = L.nav[1];
+        document.getElementById('nav-services').textContent = L.nav[2];
+        document.getElementById('nav-tech').textContent = L.nav[3];
+        document.getElementById('nav-contact').textContent = L.nav[4];
+        // Home
+        document.getElementById('home-title').textContent = L.homeTitle;
+        document.getElementById('home-text').innerHTML = L.homeText;
+        // About
+        document.getElementById('about-title').textContent = L.aboutTitle;
+        document.getElementById('about-text').innerHTML = L.aboutText;
+        document.getElementById('founder-label').textContent = L.founderLabel;
+        document.getElementById('founder').textContent = L.founder;
+        document.getElementById('city-label').textContent = L.cityLabel;
+        document.getElementById('city').textContent = L.city;
+        // Services
+        document.getElementById('services-title').textContent = L.servicesTitle;
+        document.getElementById('service1-title').textContent = L.service1Title;
+        document.getElementById('service1-desc').textContent = L.service1Desc;
+        document.getElementById('service2-title').textContent = L.service2Title;
+        document.getElementById('service2-desc').textContent = L.service2Desc;
+        document.getElementById('service3-title').textContent = L.service3Title;
+        document.getElementById('service3-desc').textContent = L.service3Desc;
+        // Tech
+        document.getElementById('tech-title').textContent = L.techTitle;
+        document.getElementById('tech-text').innerHTML = L.techText;
+        // Contact
+        document.getElementById('contact-title').textContent = L.contactTitle;
+        document.getElementById('email-label').textContent = L.emailLabel;
+        document.getElementById('phone-label').textContent = L.phoneLabel;
+        document.getElementById('city-label2').textContent = L.cityLabel2;
+        document.getElementById('email-link').textContent = L.email;
+        document.getElementById('phone').textContent = L.phone;
+        document.getElementById('city2').textContent = L.city2;
+        // Footer
+        document.querySelector('footer').textContent = L.footer;
+    }
+    </script>
+</body>
+</html>
